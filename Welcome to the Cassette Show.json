@@ -270,6 +270,15 @@
         "name": "Gray3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -845,12 +854,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "NewSprite3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 0.5,
+                    "y": 0.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -865,16 +874,16 @@
                         "y": 0
                       },
                       {
-                        "x": 16,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 1,
+                        "y": 1
                       },
                       {
                         "x": 0,
-                        "y": 16
+                        "y": 1
                       }
                     ]
                   ]
@@ -1254,7 +1263,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6846283916654049,
+        "zoomFactor": 0.34118560234734535,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1432,6 +1441,21 @@
           "x": 1544,
           "y": 556,
           "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TargetMove",
+          "persistentUuid": "2db01b28-3ee7-4f64-b10a-dc12e6830c8e",
+          "width": 0,
+          "x": 1560,
+          "y": -156,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1626,6 +1650,18 @@
                 "Frog.PointY(\"Down\")",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TargetMove",
+                "Gray.PointX(\"Center\")",
+                "Gray.PointY(\"Center\")",
+                ""
+              ]
             }
           ]
         },
@@ -1679,6 +1715,18 @@
                 "Frog.PointX(\"Down\")",
                 "=",
                 "Frog.PointY(\"Down\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TargetMove",
+                "=",
+                "Gray.PointX(\"Center\")",
+                "=",
+                "Gray.PointY(\"Center\")"
               ]
             }
           ]
@@ -1810,6 +1858,18 @@
                     "",
                     "\"Jump\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TargetMove",
+                    "Gray.PointX(\"Center\")",
+                    "Gray.PointY(\"Center\")",
+                    ""
+                  ]
                 }
               ]
             },
@@ -1819,6 +1879,7 @@
               "actions": []
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1896,6 +1957,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
