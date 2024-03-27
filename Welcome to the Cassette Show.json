@@ -749,23 +749,23 @@
                     },
                     {
                       "name": "Right",
-                      "x": 123.5,
+                      "x": 150,
                       "y": 36.5
                     },
                     {
                       "name": "Left",
-                      "x": -23,
+                      "x": -50,
                       "y": 36.5
                     },
                     {
                       "name": "Up",
-                      "x": 51.5,
-                      "y": -40
+                      "x": 50,
+                      "y": -70
                     },
                     {
                       "name": "Down",
-                      "x": 53,
-                      "y": 107
+                      "x": 50,
+                      "y": 140
                     }
                   ],
                   "originPoint": {
@@ -1164,7 +1164,37 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "GRPBox",
+      "objects": [
+        {
+          "name": "Gray"
+        },
+        {
+          "name": "Cross"
+        },
+        {
+          "name": "Start"
+        },
+        {
+          "name": "End"
+        },
+        {
+          "name": "Spring"
+        },
+        {
+          "name": "Ghost"
+        },
+        {
+          "name": "Lever"
+        },
+        {
+          "name": "Crumble"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -1511,11 +1541,156 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Right",
+                "Frog.PointX(\"Right\")",
+                "Frog.PointY(\"Right\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Left",
+                "Frog.PointX(\"Left\")",
+                "Frog.PointY(\"Left\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Up",
+                "Frog.PointX(\"Up\")",
+                "Frog.PointY(\"Up\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Down",
+                "Frog.PointX(\"Down\")",
+                "Frog.PointY(\"Down\")",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Right",
+                "=",
+                "Frog.PointX(\"Right\")",
+                "=",
+                "Frog.PointY(\"Right\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Left",
+                "=",
+                "Frog.PointX(\"Left\")",
+                "=",
+                "Frog.PointY(\"Left\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Up",
+                "=",
+                "Frog.PointX(\"Up\")",
+                "=",
+                "Frog.PointY(\"Up\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Down",
+                "=",
+                "Frog.PointX(\"Down\")",
+                "=",
+                "Frog.PointY(\"Down\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "d"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Right",
+                "Gray",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Gray",
+                "Frog.CenterX()",
+                "Frog.CenterY()",
+                ""
               ]
             },
             {
@@ -1537,14 +1712,11 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "",
-                "TargetMove",
-                "Frog.PointX(\"TargetSpawn\")+90",
-                "Frog.PointY(\"TargetSpawn\")",
-                ""
+                "IsMoving",
+                "True"
               ]
             }
           ]
@@ -1552,6 +1724,61 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "IsMoving",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "Frog",
+                "Gray.PointX(\"Center\")",
+                "Gray.PointY(\"Center\")",
+                "200",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Frog"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TargetMove",
+                "Gray",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "KeyReleased"
@@ -1577,16 +1804,20 @@
           "actions": [
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
+                "value": "Create"
               },
               "parameters": [
-                "IsMoving",
-                "True"
+                "",
+                "TargetMove",
+                "Frog.PointX(\"TargetSpawn\")+90",
+                "Frog.PointY(\"TargetSpawn\")",
+                ""
               ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1619,46 +1850,6 @@
               "parameters": [
                 "IsMoving",
                 "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "IsMoving",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TargetMove",
-                "Gray",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Frog",
-                "Gray.PointX(\"Center\")",
-                "Gray.PointY(\"Center\")",
-                "200",
-                ""
               ]
             }
           ]
