@@ -1137,6 +1137,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CenterFrog",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 1
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1150,6 +1211,9 @@
           },
           {
             "objectName": "TargetMove"
+          },
+          {
+            "objectName": "CenterFrog"
           },
           {
             "objectName": "Right"
@@ -1263,7 +1327,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.34118560234734535,
+        "zoomFactor": 0.6197916666666687,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1441,21 +1505,6 @@
           "x": 1544,
           "y": 556,
           "zOrder": -3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TargetMove",
-          "persistentUuid": "2db01b28-3ee7-4f64-b10a-dc12e6830c8e",
-          "width": 0,
-          "x": 1560,
-          "y": -156,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1657,9 +1706,9 @@
               },
               "parameters": [
                 "",
-                "TargetMove",
-                "Gray.PointX(\"Center\")",
-                "Gray.PointY(\"Center\")",
+                "CenterFrog",
+                "Frog.CenterX()",
+                "Frog.CenterY()",
                 ""
               ]
             }
@@ -1875,8 +1924,85 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "IsMoving",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "Frog",
+                    "TargetMove.CenterX()",
+                    "TargetMove.CenterY()",
+                    "500",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "CenterFrog",
+                    "TargetMove",
+                    "3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TargetMove",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Frog",
+                    "=",
+                    "Gray.PointX(\"Center\")",
+                    "=",
+                    "Gray.PointY(\"Center\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "IsMoving",
+                    "False"
+                  ]
+                }
+              ]
             },
             {
               "disabled": true,
@@ -1926,34 +2052,6 @@
                   "parameters": [
                     "",
                     "\"Jump\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "IsMoving",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AddForceVersPos"
-                  },
-                  "parameters": [
-                    "Frog",
-                    "Gray.PointX(\"Center\")",
-                    "Gray.PointY(\"Center\")",
-                    "500",
-                    ""
                   ]
                 }
               ]
