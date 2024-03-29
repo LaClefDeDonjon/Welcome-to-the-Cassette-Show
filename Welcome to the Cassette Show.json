@@ -279,6 +279,24 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1159,12 +1177,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0.5,
-                    "y": 0.5
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1179,16 +1197,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1,
+                        "x": 2,
                         "y": 0
                       },
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 2,
+                        "y": 2
                       },
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 2
                       }
                     ]
                   ]
@@ -1771,54 +1789,14 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "TargetMove",
+                "CenterFrog",
                 "=",
-                "Gray.PointX(\"Center\")",
+                "Frog.CenterX()",
                 "=",
-                "Gray.PointY(\"Center\")"
+                "Frog.CenterY()"
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": true,
-          "name": "DeplaceV3",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "d"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Right",
-                    "Gray",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            }
-          ],
-          "parameters": []
         },
         {
           "colorB": 228,
@@ -1960,7 +1938,7 @@
                   "parameters": [
                     "CenterFrog",
                     "TargetMove",
-                    "3",
+                    "5",
                     ""
                   ]
                 },
@@ -1979,6 +1957,14 @@
                   "parameters": [
                     "TargetMove",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Frog"
                   ]
                 },
                 {
