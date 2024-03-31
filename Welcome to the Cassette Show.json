@@ -374,6 +374,33 @@
         "metadata": "",
         "name": "Rubik-VariableFont_wght.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forward-solid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solid2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forward-solid2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solid - Copie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forward-solid - Copie.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1675,6 +1702,17 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BackGround",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1738,6 +1776,9 @@
       },
       {
         "objectName": "End"
+      },
+      {
+        "objectName": "BackGround"
       }
     ]
   },
@@ -1814,12 +1855,32 @@
       "name": "MoveToEnd",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "IdLevel",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "IsMovingGlobal",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tuto1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/victorylevel"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tuto2"
     }
   ],
   "externalEvents": [

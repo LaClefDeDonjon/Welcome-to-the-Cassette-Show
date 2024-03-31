@@ -225,17 +225,6 @@
   "objects": [
     {
       "assetStoreId": "",
-      "height": 32,
-      "name": "BackGround",
-      "texture": "NewTiledSprite",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "Consigne",
@@ -280,9 +269,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "BackGround"
-      },
-      {
         "objectName": "Consigne"
       }
     ]
@@ -312,6 +298,29 @@
             "Animation",
             "=",
             "\"End\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "IdLevel",
+            "=",
+            "\"Tuto1\""
           ]
         }
       ]
