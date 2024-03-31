@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4598521426736363,
+    "zoomFactor": 0.3526904934771251,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -186,54 +186,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 130,
-      "layer": "",
-      "name": "End",
-      "persistentUuid": "4b833ca8-ffe9-4f27-a24b-1c101f726f6e",
-      "width": 130,
-      "x": 1677,
-      "y": 819,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 130,
-      "layer": "",
-      "name": "Gray",
-      "persistentUuid": "48b365b1-7a72-41b7-948a-b7cf21a6cb46",
-      "width": 130,
-      "x": 923,
-      "y": 403,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 130,
-      "layer": "",
-      "name": "Gray",
-      "persistentUuid": "e31a7772-cfea-44d8-9604-915beea6e746",
-      "width": 130,
-      "x": 923,
-      "y": 715,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -242,7 +194,7 @@
       "width": 0,
       "x": 1547,
       "y": 559,
-      "zOrder": 1,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -253,6 +205,21 @@
           "value": true
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Consigne",
+      "persistentUuid": "edc1f301-676e-44b6-81b2-927414ac6bba",
+      "width": 0,
+      "x": 586,
+      "y": 104,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -266,6 +233,47 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Consigne",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -273,10 +281,41 @@
     "children": [
       {
         "objectName": "BackGround"
+      },
+      {
+        "objectName": "Consigne"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Gray",
+            "IsEnd",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Gray",
+            "Animation",
+            "=",
+            "\"End\""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
@@ -290,11 +329,6 @@
         "includeConfig": 0
       },
       "target": "FrogFonction"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -367,6 +401,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

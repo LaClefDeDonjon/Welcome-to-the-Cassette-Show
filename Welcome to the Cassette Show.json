@@ -360,6 +360,20 @@
         "name": "ArriveeV4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "../../Fonts/Rubik-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "..\\..\\Fonts\\Rubik-VariableFont_wght.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Rubik-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Rubik-VariableFont_wght.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
