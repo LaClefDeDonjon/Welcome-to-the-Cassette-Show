@@ -1,0 +1,372 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Tuto1",
+  "name": "Tuto1",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 26,
+    "gridHeight": 26,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.4598521426736363,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Start",
+      "persistentUuid": "bd19572c-9dda-4382-afef-e235eb201f51",
+      "width": 130,
+      "x": 234,
+      "y": 494,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "layer": "",
+      "locked": true,
+      "name": "BackGround",
+      "persistentUuid": "e5730c67-1e81-4593-9a68-d546d59a2301",
+      "width": 1987,
+      "x": -22,
+      "y": -31,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 73,
+      "layer": "",
+      "name": "Frog",
+      "persistentUuid": "d1ac11a6-186b-419c-8974-13900e54afb3",
+      "width": 100,
+      "x": 299,
+      "y": 558,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "ca9b9790-bab7-4055-86f1-c15e7b3defee",
+      "width": 130,
+      "x": 455,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "72353ef6-389e-46ed-943b-0b55c22ad27d",
+      "width": 130,
+      "x": 611,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "46e46dd2-a782-47cc-8bc6-53fb597fd71a",
+      "width": 130,
+      "x": 767,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "90fc7558-5da1-478a-8280-ed743a3ebb2b",
+      "width": 130,
+      "x": 923,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "80936f2c-354c-4c32-b802-00980bb57375",
+      "width": 130,
+      "x": 1079,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "6ac8da92-dc8f-485f-b0c7-e52d31ac87bc",
+      "width": 130,
+      "x": 1235,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "860e235b-c3ee-46c7-bd47-fd3fbea283f0",
+      "width": 130,
+      "x": 1391,
+      "y": 559,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "End",
+      "persistentUuid": "4b833ca8-ffe9-4f27-a24b-1c101f726f6e",
+      "width": 130,
+      "x": 1677,
+      "y": 819,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "48b365b1-7a72-41b7-948a-b7cf21a6cb46",
+      "width": 130,
+      "x": 923,
+      "y": 403,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "e31a7772-cfea-44d8-9604-915beea6e746",
+      "width": 130,
+      "x": 923,
+      "y": 715,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "5a7f4af3-a16b-462a-a358-a02969d89dfb",
+      "width": 0,
+      "x": 1547,
+      "y": 559,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsEnd",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BackGround",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "BackGround"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "BoxFonction"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "FrogFonction"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
+}

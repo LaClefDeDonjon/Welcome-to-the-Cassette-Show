@@ -1,0 +1,12 @@
+{
+  "associatedLayout": "Tuto1",
+  "lastChangeTimeStamp": 0,
+  "name": "BoxFonction",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}
