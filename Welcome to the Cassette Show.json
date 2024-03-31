@@ -401,6 +401,15 @@
         "name": "forward-solid - Copie.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrow-right-solid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-right-solid.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1867,6 +1876,12 @@
       "name": "IsMovingGlobal",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "CanMove",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [

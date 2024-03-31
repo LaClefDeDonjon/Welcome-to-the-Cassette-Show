@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3526904934771251,
+    "zoomFactor": 0.3645833333333365,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,7 +34,7 @@
       "persistentUuid": "bd19572c-9dda-4382-afef-e235eb201f51",
       "width": 130,
       "x": 234,
-      "y": 494,
+      "y": 561,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,6 +49,7 @@
       "locked": true,
       "name": "BackGround",
       "persistentUuid": "e5730c67-1e81-4593-9a68-d546d59a2301",
+      "sealed": true,
       "width": 1987,
       "x": -22,
       "y": -31,
@@ -66,7 +67,7 @@
       "persistentUuid": "d1ac11a6-186b-419c-8974-13900e54afb3",
       "width": 100,
       "x": 299,
-      "y": 558,
+      "y": 625,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,7 +83,7 @@
       "persistentUuid": "ca9b9790-bab7-4055-86f1-c15e7b3defee",
       "width": 130,
       "x": 455,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,7 +99,7 @@
       "persistentUuid": "72353ef6-389e-46ed-943b-0b55c22ad27d",
       "width": 130,
       "x": 611,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -114,7 +115,7 @@
       "persistentUuid": "46e46dd2-a782-47cc-8bc6-53fb597fd71a",
       "width": 130,
       "x": 767,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -130,7 +131,7 @@
       "persistentUuid": "90fc7558-5da1-478a-8280-ed743a3ebb2b",
       "width": 130,
       "x": 923,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,7 +147,7 @@
       "persistentUuid": "80936f2c-354c-4c32-b802-00980bb57375",
       "width": 130,
       "x": 1079,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -162,7 +163,7 @@
       "persistentUuid": "6ac8da92-dc8f-485f-b0c7-e52d31ac87bc",
       "width": 130,
       "x": 1235,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,7 +179,7 @@
       "persistentUuid": "860e235b-c3ee-46c7-bd47-fd3fbea283f0",
       "width": 130,
       "x": 1391,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,7 +194,7 @@
       "persistentUuid": "5a7f4af3-a16b-462a-a358-a02969d89dfb",
       "width": 0,
       "x": 1547,
-      "y": 559,
+      "y": 626,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -217,6 +218,52 @@
       "x": 586,
       "y": 104,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 97,
+      "layer": "",
+      "name": "Arrow",
+      "persistentUuid": "c96060d7-007d-4dc0-aa0d-077ab06f0957",
+      "width": 114,
+      "x": 1734,
+      "y": 130,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Indice",
+      "persistentUuid": "3c10ff9d-8e35-48c3-a700-57f0d13b88eb",
+      "width": 0,
+      "x": 1690,
+      "y": 26,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Commandes",
+      "persistentUuid": "8c66731c-d354-4934-b52a-61c1e78e9627",
+      "width": 0,
+      "x": 546,
+      "y": 832,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -263,6 +310,148 @@
         "characterSize": 60,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Arrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arrow-right-solid.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 1869,
+                        "y": 2
+                      },
+                      {
+                        "x": 1869,
+                        "y": 1603
+                      },
+                      {
+                        "x": 2,
+                        "y": 1603
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Indice",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Indice \ntop secret :",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Indice \ntop secret :",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Commandes",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Z Q S D  pour bouger la grenouille ! ",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Z Q S D  pour bouger la grenouille ! ",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -270,6 +459,15 @@
     "children": [
       {
         "objectName": "Consigne"
+      },
+      {
+        "objectName": "Indice"
+      },
+      {
+        "objectName": "Commandes"
+      },
+      {
+        "objectName": "Arrow"
       }
     ]
   },
