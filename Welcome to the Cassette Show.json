@@ -410,6 +410,15 @@
         "name": "arrow-right-solid.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Croix.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Croix.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -492,6 +501,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ArriveeV4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cross",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Croix.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -615,8 +672,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 65,
+                    "y": 65
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -663,8 +720,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 65,
+                    "y": 65
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1882,6 +1939,12 @@
       "name": "CanMove",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "OnCross",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

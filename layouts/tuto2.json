@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.49138775453293565,
+    "zoomFactor": 0.5250860067782508,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "name": "Frog",
       "persistentUuid": "31c599a9-33a4-42cb-a3ae-aa0823ef7396",
       "width": 0,
-      "x": 296,
-      "y": 680,
+      "x": 299,
+      "y": 690,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,8 +65,8 @@
       "name": "Start",
       "persistentUuid": "e22ced12-24f6-4219-9c59-f858d22ed072",
       "width": 0,
-      "x": 234,
-      "y": 617,
+      "x": 299,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,7 +81,7 @@
       "persistentUuid": "d93799a5-015d-4754-8ec6-90b293520026",
       "width": 0,
       "x": 455,
-      "y": 682,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,7 +96,7 @@
       "persistentUuid": "e225708c-8d1b-4233-8185-0f403389563d",
       "width": 0,
       "x": 611,
-      "y": 682,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,7 +111,7 @@
       "persistentUuid": "1a7ca917-b53b-4cff-ad14-3749cfb96810",
       "width": 0,
       "x": 767,
-      "y": 682,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -126,7 +126,7 @@
       "persistentUuid": "9f4bdd9c-b994-49fb-ab90-a7f5e0c52ea2",
       "width": 0,
       "x": 767,
-      "y": 526,
+      "y": 533,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,7 +141,7 @@
       "persistentUuid": "29e9c1c4-2f81-4aeb-83a2-5b112c60da80",
       "width": 0,
       "x": 1547,
-      "y": 682,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -163,7 +163,7 @@
       "persistentUuid": "d3585a72-7aa6-4731-b800-eb17a1f07205",
       "width": 0,
       "x": 923,
-      "y": 526,
+      "y": 533,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,7 +178,7 @@
       "persistentUuid": "ca4a0e6c-eb45-44d0-b0f5-28eb13f8a1a9",
       "width": 0,
       "x": 1079,
-      "y": 526,
+      "y": 533,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,7 +193,7 @@
       "persistentUuid": "be941085-d155-413b-a721-d048925f94a6",
       "width": 0,
       "x": 1391,
-      "y": 682,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -208,7 +208,7 @@
       "persistentUuid": "b23edc07-8f72-4607-9ffa-40d833e6fce6",
       "width": 0,
       "x": 1235,
-      "y": 526,
+      "y": 533,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -223,11 +223,55 @@
       "persistentUuid": "6ac859ca-8df7-441b-bed4-77f9c479e265",
       "width": 0,
       "x": 1235,
-      "y": 682,
+      "y": 689,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "e6bc200e-107e-4653-a6a7-c24bee5b3962",
+      "width": 0,
+      "x": 923,
+      "y": 689,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsCross",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "12d21e5d-2b30-44b4-b8f9-174d64673da7",
+      "width": 0,
+      "x": 1079,
+      "y": 689,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsCross",
+          "type": "boolean",
+          "value": true
+        }
+      ]
     }
   ],
   "objects": [],
@@ -254,34 +298,6 @@
             "IdLevel",
             "=",
             "\"Tuto2\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Gray",
-            "IsEnd",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Gray",
-            "Animation",
-            "=",
-            "\"End\""
           ]
         }
       ]
@@ -333,6 +349,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Etage1",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

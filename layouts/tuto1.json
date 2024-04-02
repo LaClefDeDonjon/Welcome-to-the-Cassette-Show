@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3645833333333365,
+    "zoomFactor": 0.542792080247333,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,7 +34,7 @@
       "persistentUuid": "bd19572c-9dda-4382-afef-e235eb201f51",
       "width": 130,
       "x": 234,
-      "y": 561,
+      "y": 572,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,7 +67,7 @@
       "persistentUuid": "d1ac11a6-186b-419c-8974-13900e54afb3",
       "width": 100,
       "x": 299,
-      "y": 625,
+      "y": 632,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,7 +83,7 @@
       "persistentUuid": "ca9b9790-bab7-4055-86f1-c15e7b3defee",
       "width": 130,
       "x": 455,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,7 +99,7 @@
       "persistentUuid": "72353ef6-389e-46ed-943b-0b55c22ad27d",
       "width": 130,
       "x": 611,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -115,7 +115,7 @@
       "persistentUuid": "46e46dd2-a782-47cc-8bc6-53fb597fd71a",
       "width": 130,
       "x": 767,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,7 +131,7 @@
       "persistentUuid": "90fc7558-5da1-478a-8280-ed743a3ebb2b",
       "width": 130,
       "x": 923,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,7 +147,7 @@
       "persistentUuid": "80936f2c-354c-4c32-b802-00980bb57375",
       "width": 130,
       "x": 1079,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -156,14 +156,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 130,
       "layer": "",
       "name": "Gray",
       "persistentUuid": "6ac8da92-dc8f-485f-b0c7-e52d31ac87bc",
       "width": 130,
       "x": 1235,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -179,7 +179,7 @@
       "persistentUuid": "860e235b-c3ee-46c7-bd47-fd3fbea283f0",
       "width": 130,
       "x": 1391,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -194,7 +194,7 @@
       "persistentUuid": "5a7f4af3-a16b-462a-a358-a02969d89dfb",
       "width": 0,
       "x": 1547,
-      "y": 626,
+      "y": 637,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -477,34 +477,6 @@
       "conditions": [
         {
           "type": {
-            "value": "ObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Gray",
-            "IsEnd",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Gray",
-            "Animation",
-            "=",
-            "\"End\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -565,6 +537,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Etage1",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

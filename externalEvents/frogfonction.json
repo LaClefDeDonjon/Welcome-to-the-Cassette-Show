@@ -158,7 +158,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Right",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -315,77 +314,79 @@
                     ""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "CenterFrog",
-                    "TargetMoveR",
-                    "5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Gray",
-                    "Frog.CenterX()",
-                    "Frog.CenterY()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
               ],
-              "actions": [
+              "events": [
                 {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "TargetMoveR",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Frog"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Frog",
-                    "=",
-                    "Gray.PointX(\"Center\")",
-                    "=",
-                    "Gray.PointY(\"Center\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "IsMovingR",
-                    "False"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "CenterFrog",
+                        "TargetMoveR",
+                        "5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Gray",
+                        "Frog.CenterX()",
+                        "Frog.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TargetMoveR",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Frog"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Frog",
+                        "=",
+                        "Gray.PointX(\"Center\")",
+                        "=",
+                        "Gray.PointY(\"Center\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "IsMovingR",
+                        "False"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -398,7 +399,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Left",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -638,7 +638,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Up",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -878,7 +877,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Down",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
