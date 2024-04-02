@@ -314,79 +314,77 @@
                     ""
                   ]
                 }
-              ],
-              "events": [
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "CenterFrog",
-                        "TargetMoveR",
-                        "5",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PickNearest"
-                      },
-                      "parameters": [
-                        "Gray",
-                        "Frog.CenterX()",
-                        "Frog.CenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "TargetMoveR",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "Frog"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Frog",
-                        "=",
-                        "Gray.PointX(\"Center\")",
-                        "=",
-                        "Gray.PointY(\"Center\")"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "IsMovingR",
-                        "False"
-                      ]
-                    }
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "CenterFrog",
+                    "TargetMoveR",
+                    "5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Gray",
+                    "Frog.CenterX()",
+                    "Frog.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TargetMoveR",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Frog"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Frog",
+                    "=",
+                    "Gray.PointX(\"Center\")",
+                    "=",
+                    "Gray.PointY(\"Center\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "IsMovingR",
+                    "False"
                   ]
                 }
               ]
