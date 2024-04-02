@@ -419,6 +419,15 @@
         "name": "Croix.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1801,12 +1810,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0.5,
-                    "y": 0.5
+                    "x": 5,
+                    "y": 5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1821,16 +1830,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1,
+                        "x": 10,
                         "y": 0
                       },
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 10,
+                        "y": 10
                       },
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 10
                       }
                     ]
                   ]
@@ -1840,11 +1849,99 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ConsigneTuto1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Consigne",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Atteinds l'arrivée !",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Atteinds l'arrivée !",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "ConsigneTuto1"
+      },
+      {
+        "objectName": "Consigne"
+      },
       {
         "folderName": "Frog",
         "children": [
@@ -2023,6 +2120,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tuto2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tuto3"
     }
   ],
   "externalEvents": [

@@ -67,7 +67,7 @@
       "persistentUuid": "d1ac11a6-186b-419c-8974-13900e54afb3",
       "width": 100,
       "x": 299,
-      "y": 632,
+      "y": 638,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,7 +212,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Consigne",
+      "name": "ConsigneTuto1",
       "persistentUuid": "edc1f301-676e-44b6-81b2-927414ac6bba",
       "width": 0,
       "x": 586,
@@ -270,47 +270,6 @@
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Consigne",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
-      "font": "Rubik-VariableFont_wght.ttf",
-      "textAlignment": "center",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
-        "font": "Rubik-VariableFont_wght.ttf",
-        "textAlignment": "center",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -457,9 +416,6 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Consigne"
-      },
       {
         "objectName": "Indice"
       },
