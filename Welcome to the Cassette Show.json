@@ -428,6 +428,15 @@
         "name": "NewSprite6",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jump.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -558,6 +567,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Croix.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Jump.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1931,6 +1988,128 @@
         "characterSize": 60,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetMoveJump",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 5,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 10,
+                        "y": 10
+                      },
+                      {
+                        "x": 0,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetMoveJump2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 5,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 10,
+                        "y": 10
+                      },
+                      {
+                        "x": 0,
+                        "y": 10
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1953,6 +2132,12 @@
           },
           {
             "objectName": "TargetMoveStart"
+          },
+          {
+            "objectName": "TargetMoveJump"
+          },
+          {
+            "objectName": "TargetMoveJump2"
           },
           {
             "objectName": "TargetMoveL"
@@ -2106,16 +2291,22 @@
       "name": "OnCross",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "OnJump",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/tuto1"
+      "referenceTo": "/layouts/victorylevel"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/victorylevel"
+      "referenceTo": "/layouts/tuto1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2124,6 +2315,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tuto3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tuto4"
     }
   ],
   "externalEvents": [
