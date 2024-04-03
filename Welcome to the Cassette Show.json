@@ -455,6 +455,15 @@
         "name": "LevierON.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2076,7 +2085,7 @@
       "string": "Atteinds l'arrivée !",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
-      "characterSize": 60,
+      "characterSize": 100,
       "color": {
         "b": 0,
         "g": 0,
@@ -2099,7 +2108,7 @@
         "text": "Atteinds l'arrivée !",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
-        "characterSize": 60,
+        "characterSize": 100,
         "color": "0;0;0"
       }
     },
@@ -2339,7 +2348,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "NewSprite7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2359,16 +2368,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1,
+                        "x": 5,
                         "y": 0
                       },
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 5,
+                        "y": 5
                       },
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 5
                       }
                     ]
                   ]
@@ -2396,6 +2405,12 @@
         "objectName": "ConsigneIMTuto4"
       },
       {
+        "objectName": "TargetMoveStart"
+      },
+      {
+        "objectName": "TargetText"
+      },
+      {
         "folderName": "Frog",
         "children": [
           {
@@ -2403,12 +2418,6 @@
           },
           {
             "objectName": "TargetMoveR"
-          },
-          {
-            "objectName": "TargetText"
-          },
-          {
-            "objectName": "TargetMoveStart"
           },
           {
             "objectName": "TargetMoveJump"

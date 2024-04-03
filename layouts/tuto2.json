@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5250860067782508,
+    "zoomFactor": 0.7562477198107312,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -277,13 +277,45 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "UI",
       "name": "Consigne",
       "persistentUuid": "4f9a1e4e-2107-453d-9af5-4dfb39f76715",
       "width": 0,
-      "x": 775,
-      "y": 347,
+      "x": 546,
+      "y": 457,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1196,
+      "layer": "UI",
+      "name": "BackcgroundText",
+      "persistentUuid": "772898b6-293d-4092-b2af-47d565074f3b",
+      "width": 2054,
+      "x": -78,
+      "y": -78,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 5,
+      "layer": "",
+      "name": "TargetText",
+      "persistentUuid": "5679301a-9787-4e2b-a673-7d0bc2a15a30",
+      "width": 5,
+      "x": 1012,
+      "y": 388,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -330,6 +362,13 @@
         "includeConfig": 0
       },
       "target": "BoxFonction"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "TextBeginingLevel"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -393,7 +432,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Etage1",
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
