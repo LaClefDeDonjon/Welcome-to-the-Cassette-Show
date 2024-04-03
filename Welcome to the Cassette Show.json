@@ -2035,7 +2035,7 @@
       "string": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
-      "characterSize": 60,
+      "characterSize": 100,
       "color": {
         "b": 0,
         "g": 0,
@@ -2058,7 +2058,7 @@
         "text": "Atteinds l'arrivée !\nDifficultée : Très dur Ohlala",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
-        "characterSize": 60,
+        "characterSize": 100,
         "color": "0;0;0"
       }
     },
@@ -2306,6 +2306,78 @@
         "characterSize": 60,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BackcgroundText",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetText",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 0,
+                        "y": 1
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2331,6 +2403,9 @@
           },
           {
             "objectName": "TargetMoveR"
+          },
+          {
+            "objectName": "TargetText"
           },
           {
             "objectName": "TargetMoveStart"
@@ -2393,6 +2468,9 @@
       },
       {
         "objectName": "BackGround"
+      },
+      {
+        "objectName": "BackcgroundText"
       }
     ]
   },
@@ -2511,6 +2589,12 @@
       "name": "Rumble_IM",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "AnimText",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -2547,6 +2631,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/frogfonction"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/textbegininglevel"
     }
   ],
   "eventsFunctionsExtensions": [],
