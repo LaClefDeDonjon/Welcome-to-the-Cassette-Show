@@ -29,13 +29,13 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Gray",
                 "Animation",
                 "=",
-                "\"End\""
+                "1"
               ]
             }
           ]
@@ -193,13 +193,13 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Gray",
                 "Animation",
                 "=",
-                "\"LeverOFF\""
+                "4"
               ]
             }
           ]
@@ -321,13 +321,13 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Gray",
                 "Animation",
                 "=",
-                "\"LeverON\""
+                "5"
               ]
             }
           ]
@@ -436,7 +436,6 @@
       "colorG": 0,
       "colorR": 255,
       "creationTime": 0,
-      "folded": true,
       "name": "Cross",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -453,18 +452,24 @@
                 "IsCross",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Gray",
                 "Animation",
                 "=",
-                "\"Cross\""
+                "2"
               ]
             }
           ]
@@ -789,7 +794,6 @@
       "colorG": 17,
       "colorR": 20,
       "creationTime": 0,
-      "folded": true,
       "name": "Jump",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -811,13 +815,13 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Gray",
                 "Animation",
                 "=",
-                "\"Jump\""
+                "3"
               ]
             }
           ]
@@ -885,6 +889,24 @@
                 "Animation",
                 "=",
                 "\"Jump\""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnCross",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnJump",
+                "False"
               ]
             },
             {
@@ -988,6 +1010,15 @@
                 "TargetMoveJump2",
                 "500",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnCross",
+                "False"
               ]
             }
           ]
@@ -1126,6 +1157,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
