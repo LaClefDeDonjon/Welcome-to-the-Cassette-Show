@@ -2236,7 +2236,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Atteinds l'arrivée !\n(C'est      possible !)",
+      "string": "Atteinds l'arrivée ! (C'est      possible !)",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
       "characterSize": 60,
@@ -2259,7 +2259,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Atteinds l'arrivée !\n(C'est      possible !)",
+        "text": "Atteinds l'arrivée ! (C'est      possible !)",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 60,
@@ -2505,6 +2505,12 @@
       "name": "LeverONOFF",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "Rumble_IM",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -2527,6 +2533,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tuto4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/niveau1"
     }
   ],
   "externalEvents": [

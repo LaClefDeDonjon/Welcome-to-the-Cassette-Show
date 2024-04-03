@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4913877545329351,
+    "zoomFactor": 0.47535850871269353,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -266,8 +266,8 @@
       "name": "ConsigneTuto4",
       "persistentUuid": "8345d06c-9121-4077-84b2-a1059dd53789",
       "width": 0,
-      "x": 702,
-      "y": 78,
+      "x": 442,
+      "y": 424,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -281,8 +281,8 @@
       "name": "ConsigneIMTuto4",
       "persistentUuid": "afa5a24a-2dea-45db-9f82-1caf3718f031",
       "width": 0,
-      "x": 876,
-      "y": 149,
+      "x": 1132,
+      "y": 425,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,9 +416,83 @@
                 "LeverONOFF",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Rumble_IM",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"RumbleTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "ConsigneIMTuto4",
+                "\"255;0;0\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"RumbleTime\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Rumble_IM",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "ConsigneIMTuto4",
+                "0",
+                "500",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
