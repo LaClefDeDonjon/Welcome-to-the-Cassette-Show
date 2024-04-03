@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4448515998886649,
+    "zoomFactor": 0.3768772036750872,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -67,7 +67,7 @@
       "width": 0,
       "x": 873,
       "y": 428,
-      "zOrder": 3,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -85,7 +85,14 @@
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsLever",
+          "type": "boolean",
+          "value": true
+        }
+      ]
     },
     {
       "angle": 0,
@@ -130,7 +137,14 @@
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsJump",
+          "type": "boolean",
+          "value": true
+        }
+      ]
     },
     {
       "angle": 0,
@@ -168,21 +182,6 @@
       "height": 0,
       "layer": "",
       "name": "Gray",
-      "persistentUuid": "1388a179-8881-4864-bed9-8817837ebce0",
-      "width": 0,
-      "x": 1339,
-      "y": 429,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Gray",
       "persistentUuid": "910c91ea-a459-43c0-aa8a-91cad6ca96af",
       "width": 0,
       "x": 1183,
@@ -190,7 +189,14 @@
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsCross",
+          "type": "boolean",
+          "value": true
+        }
+      ]
     },
     {
       "angle": 0,
@@ -293,6 +299,82 @@
       "x": 559,
       "y": 897,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsEnd",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 138,
+      "layer": "UI",
+      "name": "ConsigneNiv1",
+      "persistentUuid": "2cba9a64-53c7-4574-93eb-e3e6a6e46d24",
+      "width": 1461,
+      "x": 229,
+      "y": 330,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "1bdf4407-ee1f-4329-b3ea-3a3299942a79",
+      "width": 0,
+      "x": 1339,
+      "y": 429,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "IsLever",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1248,
+      "layer": "UI",
+      "name": "BackcgroundText",
+      "persistentUuid": "fe0ba9b7-5e5f-41da-8ced-266b9db5f184",
+      "width": 2132,
+      "x": -104,
+      "y": -78,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TargetText",
+      "persistentUuid": "9d3fc1fd-c1b6-418a-a74a-da53403433c4",
+      "width": 0,
+      "x": 988,
+      "y": 49,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
