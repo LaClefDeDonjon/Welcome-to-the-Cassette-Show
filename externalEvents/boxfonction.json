@@ -319,7 +319,7 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "OnJump",
+                "OnJump_R",
                 "False"
               ]
             },
@@ -381,6 +381,7 @@
       "colorG": 174,
       "colorR": 174,
       "creationTime": 0,
+      "folded": true,
       "name": "Lever",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -444,7 +445,7 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "OnJump",
+                "OnJump_R",
                 "False"
               ]
             },
@@ -721,6 +722,7 @@
       "colorG": 0,
       "colorR": 255,
       "creationTime": 0,
+      "folded": true,
       "name": "Cross",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -790,7 +792,7 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "OnJump",
+                "OnJump_R",
                 "False"
               ]
             }
@@ -838,7 +840,7 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "OnJump",
+                "OnJump_R",
                 "False"
               ]
             },
@@ -1205,6 +1207,255 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Frog",
+                "Gray",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Gray",
+                "Animation",
+                "=",
+                "\"Jump\""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnCross",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnJump_R",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "IsMovingR",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "IsMovingL",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "IsMovingU",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "IsMovingD",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnCross",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnJump_R",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TargetMoveJump",
+                "Frog.CenterX()+234",
+                "Frog.CenterY()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnJump_R",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "Frog",
+                "TargetMoveJump",
+                "234",
+                "GlobalVariable(AngleJump)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "AngleJump",
+                    "+",
+                    "3"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "AngleJump",
+                ">=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnJump_R",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TargetMoveJump",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "AngleJump",
+                "=",
+                "-180"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Frog",
+                "Gray",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Gray",
+                "Animation",
+                "=",
+                "\"End\""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "OnJump_R",
+                "True"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -1256,7 +1507,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "OnJump",
+                    "OnJump_R",
                     "False"
                   ]
                 },
@@ -1309,7 +1560,7 @@
                     "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "OnJump",
+                    "OnJump_R",
                     "True"
                   ]
                 },
@@ -1336,7 +1587,7 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "OnJump",
+                    "OnJump_R",
                     "True"
                   ]
                 }
@@ -1504,7 +1755,7 @@
                     "value": "SetGlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "OnJump",
+                    "OnJump_R",
                     "False"
                   ]
                 }

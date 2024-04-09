@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3895856273827287,
+    "zoomFactor": 0.44485159988866535,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -588,7 +588,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

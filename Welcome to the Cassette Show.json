@@ -558,7 +558,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "GrayV2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -606,7 +627,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "ArriveeV4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -654,7 +696,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Croix.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -702,7 +765,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Jump.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -750,7 +834,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "LevierOff.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -798,7 +903,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "LevierON.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -846,7 +972,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Gray[Pink].png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -894,7 +1041,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Gray[Blue].png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -942,7 +1110,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Gray[Green].png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -990,7 +1179,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Gray[Orange].png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -1038,7 +1248,28 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Gray[Yellow].png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Left",
+                      "x": 2,
+                      "y": 65
+                    },
+                    {
+                      "name": "Right",
+                      "x": 128,
+                      "y": 65
+                    },
+                    {
+                      "name": "Up",
+                      "x": 65,
+                      "y": 0
+                    },
+                    {
+                      "name": "Down",
+                      "x": 65,
+                      "y": 128
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 65,
@@ -2728,6 +2959,67 @@
         "characterSize": 90,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetEnterJump_L",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 0,
+                        "y": 5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2753,6 +3045,9 @@
       },
       {
         "objectName": "TargetText"
+      },
+      {
+        "objectName": "TargetEnterJump_L"
       },
       {
         "folderName": "Frog",
@@ -2933,7 +3228,7 @@
     },
     {
       "folded": true,
-      "name": "OnJump",
+      "name": "OnJump_R",
       "type": "boolean",
       "value": false
     },
@@ -2954,6 +3249,12 @@
       "name": "AnimText",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "AngleJump",
+      "type": "number",
+      "value": -180
     }
   ],
   "layouts": [
