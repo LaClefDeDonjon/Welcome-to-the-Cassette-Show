@@ -464,6 +464,60 @@
         "name": "NewSprite7",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GrayV2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GrayV2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gray[Pink].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gray[Pink].png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gray[Blue].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gray[Blue].png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gray[Green].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gray[Green].png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gray[Orange].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gray[Orange].png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gray[Yellow].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gray[Yellow].png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -481,6 +535,12 @@
           "name": "FrogOnGray",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "ColorGray",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -497,7 +557,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Gray3.png",
+                  "image": "GrayV2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -738,6 +798,246 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "LevierON.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "[Pink]",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gray[Pink].png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "[Blue]",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gray[Blue].png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "[Green]",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gray[Green].png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "[Orange]",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gray[Orange].png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 65,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 0
+                      },
+                      {
+                        "x": 130,
+                        "y": 130
+                      },
+                      {
+                        "x": 0,
+                        "y": 130
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "[Yellow]",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gray[Yellow].png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2622,6 +2922,12 @@
     {
       "folded": true,
       "name": "OnCross",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "CrossCollision",
       "type": "boolean",
       "value": false
     },

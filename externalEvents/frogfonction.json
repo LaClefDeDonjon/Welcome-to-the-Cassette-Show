@@ -200,6 +200,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "CrossCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "IsMovingR",
                     "False"
                   ]
@@ -432,6 +441,15 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "CrossCollision",
+                    "False"
                   ]
                 },
                 {
@@ -678,6 +696,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "CrossCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "IsMovingU",
                     "False"
                   ]
@@ -910,6 +937,15 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "CrossCollision",
+                    "False"
                   ]
                 },
                 {
