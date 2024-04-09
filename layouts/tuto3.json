@@ -588,7 +588,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

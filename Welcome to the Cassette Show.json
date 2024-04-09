@@ -518,6 +518,42 @@
         "name": "Gray[Yellow].png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2521,18 +2557,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "NewSprite9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 5,
-                    "y": 5
+                    "x": 2.5,
+                    "y": 2.5
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 3,
+                    "y": 3
                   },
                   "customCollisionMask": [
                     [
@@ -2541,16 +2577,16 @@
                         "y": 0
                       },
                       {
-                        "x": 10,
+                        "x": 5,
                         "y": 0
                       },
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 5,
+                        "y": 5
                       },
                       {
                         "x": 0,
-                        "y": 10
+                        "y": 5
                       }
                     ]
                   ]
@@ -2981,12 +3017,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "NewSprite10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0.5,
-                    "y": 0.5
+                    "x": 2.5,
+                    "y": 50
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3006,6 +3042,67 @@
                       },
                       {
                         "x": 5,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetEnterJump_U",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 50,
+                    "y": 2.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
                         "y": 5
                       },
                       {
@@ -3048,6 +3145,9 @@
       },
       {
         "objectName": "TargetEnterJump_L"
+      },
+      {
+        "objectName": "TargetEnterJump_U"
       },
       {
         "folderName": "Frog",
@@ -3255,6 +3355,17 @@
       "name": "AngleJump",
       "type": "number",
       "value": -180
+    },
+    {
+      "folded": true,
+      "name": "EnterJump_L",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "EnterJump_U",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
