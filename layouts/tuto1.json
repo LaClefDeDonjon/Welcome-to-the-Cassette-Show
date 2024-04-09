@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.35269049347712667,
+    "zoomFactor": 0.5427920802473337,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -281,22 +281,6 @@
       "x": -104,
       "y": -104,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 5,
-      "layer": "",
-      "name": "TargetText",
-      "persistentUuid": "bbd3ff41-43b9-4115-86df-99925e24d1d4",
-      "width": 5,
-      "x": 936,
-      "y": 338,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -564,7 +548,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

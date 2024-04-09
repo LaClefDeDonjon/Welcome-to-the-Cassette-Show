@@ -3117,6 +3117,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetEnterJump_R",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 50
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3145,6 +3206,9 @@
       },
       {
         "objectName": "TargetEnterJump_L"
+      },
+      {
+        "objectName": "TargetEnterJump_R"
       },
       {
         "objectName": "TargetEnterJump_U"
@@ -3364,6 +3428,11 @@
     },
     {
       "name": "EnterJump_U",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "EnterJump_R",
       "type": "boolean",
       "value": false
     }
