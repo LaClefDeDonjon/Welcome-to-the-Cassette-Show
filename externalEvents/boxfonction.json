@@ -34,6 +34,24 @@
         },
         {
           "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "OnJump_R",
+            "ColorGray"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "OnCross",
+            "ColorGray"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -774,6 +792,64 @@
                 "Animation",
                 "=",
                 "5"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Gray",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Gray",
+                "LeverAnim",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Gray",
+                "Animation",
+                "=",
+                "\"LeverON\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TargetLeverOn",
+                "Gray.CenterX()",
+                "Gray.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "TargetLeverOn",
+                "=",
+                "100"
               ]
             }
           ]

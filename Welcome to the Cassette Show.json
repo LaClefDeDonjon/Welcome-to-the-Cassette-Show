@@ -3184,40 +3184,114 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TargetLeverOn",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 2.5,
+                    "y": 2.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 3,
+                    "y": 3
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 0,
+                        "y": 5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "ConsigneTuto1"
+        "folderName": "text",
+        "children": [
+          {
+            "objectName": "ConsigneIMTuto4"
+          },
+          {
+            "objectName": "ConsigneNiv1"
+          },
+          {
+            "objectName": "ConsigneTuto4"
+          },
+          {
+            "objectName": "Consigne"
+          },
+          {
+            "objectName": "ConsigneTuto1"
+          }
+        ]
       },
       {
-        "objectName": "Consigne"
-      },
-      {
-        "objectName": "ConsigneTuto4"
-      },
-      {
-        "objectName": "ConsigneNiv1"
-      },
-      {
-        "objectName": "ConsigneIMTuto4"
-      },
-      {
-        "objectName": "TargetMoveStart"
-      },
-      {
-        "objectName": "TargetText"
-      },
-      {
-        "objectName": "TargetEnterJump_L"
-      },
-      {
-        "objectName": "TargetEnterJump_R"
-      },
-      {
-        "objectName": "TargetEnterJump_U"
+        "folderName": "Targets",
+        "children": [
+          {
+            "objectName": "TargetEnterJump_U"
+          },
+          {
+            "objectName": "TargetEnterJump_R"
+          },
+          {
+            "objectName": "TargetEnterJump_L"
+          },
+          {
+            "objectName": "TargetText"
+          },
+          {
+            "objectName": "TargetMoveStart"
+          },
+          {
+            "objectName": "TargetLeverOn"
+          }
+        ]
       },
       {
         "folderName": "Frog",
@@ -3267,21 +3341,6 @@
         "objectName": "Gray"
       },
       {
-        "objectName": "Cross"
-      },
-      {
-        "objectName": "Spring"
-      },
-      {
-        "objectName": "Lever"
-      },
-      {
-        "objectName": "Crumble"
-      },
-      {
-        "objectName": "Ghost"
-      },
-      {
         "objectName": "End"
       },
       {
@@ -3289,6 +3348,26 @@
       },
       {
         "objectName": "BackcgroundText"
+      },
+      {
+        "folderName": "Unused",
+        "children": [
+          {
+            "objectName": "Ghost"
+          },
+          {
+            "objectName": "Crumble"
+          },
+          {
+            "objectName": "Lever"
+          },
+          {
+            "objectName": "Spring"
+          },
+          {
+            "objectName": "Cross"
+          }
+        ]
       }
     ]
   },
@@ -3452,6 +3531,12 @@
       "name": "EnterJump_R",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "TriggersLever",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

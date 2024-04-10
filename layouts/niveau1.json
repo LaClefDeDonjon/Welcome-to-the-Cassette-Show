@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4598521426736339,
+    "zoomFactor": 0.44485159988866574,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -91,6 +91,12 @@
           "name": "IsLever",
           "type": "boolean",
           "value": true
+        },
+        {
+          "folded": true,
+          "name": "LeverIDNiv1",
+          "type": "number",
+          "value": 0
         }
       ]
     },
@@ -345,6 +351,13 @@
           "name": "IsLever",
           "type": "boolean",
           "value": true
+        },
+        {
+          "folded": true,
+          "name": "LeverIDNiv1",
+          "persistentUuid": "df4e6977-5c28-4bd2-8c5f-d31c35e54482",
+          "type": "number",
+          "value": 1
         }
       ]
     },
@@ -439,122 +452,83 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Gray",
-          "conditions": [],
-          "actions": [],
-          "events": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "LeverONOFF",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Index"
-                  },
-                  "parameters": [
-                    "Gray",
-                    "Animation",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Gray",
-                    "IsCross",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Gray",
-                    "Animation",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"ça devrait changer\"",
-                    "\"info\"",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TriggersLever",
+                "=",
+                "2"
               ]
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Gray",
-                    "LeverAnim",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"case grise \" +Gray.Animation::Name()",
-                    "\"info\"",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "Gray",
+                "Animation",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Gray",
+                "IsCross",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Gray",
+                "Animation",
+                "=",
+                "0"
               ]
             }
           ]
         },
         {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
               },
               "parameters": [
-                "LeverONOFF",
-                "True"
+                "Gray",
+                "Animation",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Gray",
+                "LeverIDNiv1",
+                "=",
+                "0"
               ]
             },
             {
@@ -570,45 +544,43 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Rumble_IM",
+                "TriggersLever",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "Gray",
+                "Animation",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Gray",
+                "LeverIDNiv1",
                 "=",
                 "1"
               ]
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "",
-                "\"RumbleTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "ConsigneIMTuto4",
-                "\"255;0;0\""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"RumbleTime\"",
-                ">=",
-                "1"
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -617,20 +589,9 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "Rumble_IM",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "ConsigneIMTuto4",
-                "0",
-                "500",
-                ""
+                "TriggersLever",
+                "+",
+                "1"
               ]
             }
           ]
