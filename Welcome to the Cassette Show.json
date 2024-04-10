@@ -3362,6 +3362,12 @@
     },
     {
       "folded": true,
+      "name": "EndCollision",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
       "name": "IdLevel",
       "type": "string",
       "value": ""
@@ -3393,6 +3399,11 @@
     {
       "folded": true,
       "name": "OnJump_R",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "JumpCollision",
       "type": "boolean",
       "value": false
     },

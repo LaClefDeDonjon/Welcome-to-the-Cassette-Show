@@ -200,6 +200,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "JumpCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "OnJump_R",
                     "False"
                   ]
@@ -246,6 +255,15 @@
                   },
                   "parameters": [
                     "IsMovingD",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EndCollision",
                     "False"
                   ]
                 },
@@ -457,6 +475,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "JumpCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "OnJump_R",
                     "False"
                   ]
@@ -503,6 +530,15 @@
                   },
                   "parameters": [
                     "IsMovingU",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EndCollision",
                     "False"
                   ]
                 },
@@ -714,6 +750,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "JumpCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "OnJump_R",
                     "False"
                   ]
@@ -760,6 +805,15 @@
                   },
                   "parameters": [
                     "IsMovingR",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EndCollision",
                     "False"
                   ]
                 },
@@ -971,6 +1025,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "JumpCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "OnJump_R",
                     "False"
                   ]
@@ -1017,6 +1080,15 @@
                   },
                   "parameters": [
                     "IsMovingR",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "EndCollision",
                     "False"
                   ]
                 },
