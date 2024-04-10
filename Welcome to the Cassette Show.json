@@ -3550,6 +3550,12 @@
     },
     {
       "folded": true,
+      "name": "Rumble_VRAIMENT",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
       "name": "AnimText",
       "type": "number",
       "value": 0
