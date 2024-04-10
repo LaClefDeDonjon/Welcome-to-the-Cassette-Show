@@ -283,8 +283,8 @@
       "name": "ConsigneIMTuto4",
       "persistentUuid": "afa5a24a-2dea-45db-9f82-1caf3718f031",
       "width": 1612,
-      "x": 132,
-      "y": 315,
+      "x": 128,
+      "y": 323,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -598,8 +598,29 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Tuto4\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

@@ -580,6 +580,12 @@
         },
         {
           "folded": true,
+          "name": "ColorGrayID",
+          "type": "string",
+          "value": "Gray"
+        },
+        {
+          "folded": true,
           "name": "LeverAnim",
           "type": "boolean",
           "value": false
@@ -3587,6 +3593,12 @@
       "name": "TriggersLever",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "ColorGrayID",
+      "type": "string",
+      "value": "Gray"
     }
   ],
   "layouts": [
