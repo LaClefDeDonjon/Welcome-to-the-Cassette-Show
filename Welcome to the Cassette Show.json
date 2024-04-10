@@ -27,7 +27,7 @@
     "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 60,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -2862,7 +2862,7 @@
       "string": "                            Im           ",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 57,
       "color": {
         "b": 0,
         "g": 0,
@@ -2885,7 +2885,7 @@
         "text": "                            Im           ",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
-        "characterSize": 55,
+        "characterSize": 57,
         "color": "0;0;0"
       }
     },
@@ -3245,6 +3245,47 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ConsigneVraimentNiv1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Vraiment",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "center",
+      "characterSize": 57,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Vraiment",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "center",
+        "characterSize": 57,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3255,6 +3296,9 @@
         "children": [
           {
             "objectName": "ConsigneIMTuto4"
+          },
+          {
+            "objectName": "ConsigneVraimentNiv1"
           },
           {
             "objectName": "ConsigneNiv1"

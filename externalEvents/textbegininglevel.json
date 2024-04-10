@@ -1305,6 +1305,22 @@
                     "=",
                     "230"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ConsigneIMTuto4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "ConsigneVraimentNiv1"
+                  ]
                 }
               ]
             },
@@ -1313,6 +1329,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "TypingText",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -1713,7 +1730,7 @@
                         "",
                         "\"Timertext\"",
                         ">=",
-                        "3.8"
+                        "3.7"
                       ]
                     },
                     {
@@ -1829,6 +1846,32 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "ConsigneNiv1",
+                    "TargetText",
+                    "3",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "ConsigneNiv1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "TextObject::Text::FontSize"
                   },
                   "parameters": [
@@ -1836,6 +1879,12 @@
                     "<=",
                     "57"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -1856,6 +1905,35 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ConsigneIMTuto4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ConsigneVraimentNiv1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ConsigneNiv1",
+                    "Text",
+                    "=",
+                    "\"Marche sur toutes les cases grises \navant d'atteindre l'arrivée !\n(C'est                        possible !)\""
                   ]
                 }
               ]
