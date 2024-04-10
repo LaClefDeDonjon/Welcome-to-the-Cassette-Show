@@ -294,6 +294,7 @@
       "colorG": 200,
       "colorR": 255,
       "creationTime": 0,
+      "folded": true,
       "name": "End",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -476,7 +477,6 @@
       "colorG": 174,
       "colorR": 174,
       "creationTime": 0,
-      "folded": true,
       "name": "Lever",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -599,9 +599,10 @@
           "actions": [
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
+                "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
+                "Gray",
                 "LeverONOFF",
                 "True"
               ]
@@ -613,9 +614,10 @@
           "conditions": [
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
+                "Gray",
                 "LeverONOFF",
                 "True"
               ]
@@ -1227,6 +1229,15 @@
                 "CanMove",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "JumpCollision",
+                "False"
+              ]
             }
           ]
         }
@@ -1455,16 +1466,6 @@
                     "=",
                     "-180"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"Ca touche l'activation de EnterL\"",
-                    "\"info\"",
-                    ""
-                  ]
                 }
               ]
             },
@@ -1687,15 +1688,6 @@
                       },
                       "parameters": [
                         "CrossCollision",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OnCross",
                         "False"
                       ]
                     },
@@ -2040,15 +2032,6 @@
                         "value": "SetGlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "OnCross",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
                         "OnJump_R",
                         "False"
                       ]
@@ -2290,16 +2273,6 @@
                         "Frog.CenterY()",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"ça touche le merdier\"",
-                        "\"info\"",
-                        ""
-                      ]
                     }
                   ]
                 },
@@ -2387,15 +2360,6 @@
                       },
                       "parameters": [
                         "CrossCollision",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OnCross",
                         "False"
                       ]
                     },
@@ -2765,132 +2729,146 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 0,
+      "colorG": 0,
+      "colorR": 0,
+      "creationTime": 0,
+      "disabled": true,
+      "folded": true,
+      "name": "Debug",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "EnterJump_L",
-            "True"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "EnterJump_L",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "\"EnterL est True\"",
+                "\"info\"",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "\"EnterL est True\"",
-            "\"info\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "EnterJump_L",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "\"EnterL est False\"",
-            "\"info\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "EnterJump_R",
-            "True"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "EnterJump_L",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "\"EnterL est False\"",
+                "\"info\"",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "\"EnterR est True\"",
-            "\"info\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "EnterJump_U",
-            "True"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "EnterJump_R",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "\"EnterR est True\"",
+                "\"info\"",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "\"EnterU est True\"",
-            "\"info\"",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "EnterJump_U",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "\"EnterU est True\"",
+                "\"info\"",
+                ""
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "parameters": []
     }
   ]
 }

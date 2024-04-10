@@ -577,6 +577,12 @@
           "name": "ColorGray",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "LeverONOFF",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
