@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5427920802473337,
+    "zoomFactor": 0.28905162031349524,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -284,6 +284,37 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 95,
+      "layer": "",
+      "name": "RestartButton",
+      "persistentUuid": "af327785-a146-4aff-9f90-1b8b1c3cdc98",
+      "width": 100,
+      "x": 1757,
+      "y": 928,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BackButton",
+      "persistentUuid": "3fdc8eed-6a37-4270-b19d-7118f5dd477f",
+      "width": 0,
+      "x": 1742,
+      "y": 910,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -488,6 +519,13 @@
         "includeConfig": 0
       },
       "target": "TextBeginingLevel"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ButtonsFonctions"
     }
   ],
   "layers": [

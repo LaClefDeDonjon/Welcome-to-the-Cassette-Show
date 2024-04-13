@@ -421,6 +421,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Debug",
+      "persistentUuid": "66636a00-c72b-47ad-aaf5-c9f145952734",
+      "width": 0,
+      "x": 1508,
+      "y": 364,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -447,6 +462,16 @@
             "IdLevel",
             "=",
             "\"Niv1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "BoxStep",
+            "=",
+            "0"
           ]
         }
       ]
