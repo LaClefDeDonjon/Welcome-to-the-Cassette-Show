@@ -3793,6 +3793,12 @@
       "name": "BoxStep",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "GrayCollision",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

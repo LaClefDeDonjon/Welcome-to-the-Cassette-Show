@@ -200,6 +200,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "GrayCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "JumpCollision",
                     "False"
                   ]
@@ -431,6 +440,25 @@
                     "IsMovingR",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"GrauCollision False\"",
+                    "\"info\"",
+                    ""
+                  ]
                 }
               ]
             }
@@ -477,6 +505,15 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
+                    "False"
                   ]
                 },
                 {
@@ -715,6 +752,15 @@
                     "IsMovingL",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
+                    "False"
+                  ]
                 }
               ]
             }
@@ -761,6 +807,15 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
+                    "False"
                   ]
                 },
                 {
@@ -999,6 +1054,15 @@
                     "IsMovingU",
                     "False"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
+                    "False"
+                  ]
                 }
               ]
             }
@@ -1045,6 +1109,15 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
+                    "False"
                   ]
                 },
                 {
@@ -1281,6 +1354,15 @@
                   },
                   "parameters": [
                     "IsMovingD",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GrayCollision",
                     "False"
                   ]
                 }
