@@ -226,6 +226,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "LeverONOFF",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "TriggersLever",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "AnimText",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
