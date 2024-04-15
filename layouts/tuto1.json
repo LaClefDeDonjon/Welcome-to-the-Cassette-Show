@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4753585087126993,
+    "zoomFactor": 0.38958562738273395,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -60,14 +60,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 73,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
       "layer": "",
       "name": "Frog",
       "persistentUuid": "d1ac11a6-186b-419c-8974-13900e54afb3",
-      "width": 100,
+      "width": 109,
       "x": 299,
-      "y": 638,
+      "y": 640,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -495,6 +496,17 @@
             "IdLevel",
             "=",
             "\"Tuto1\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "Frog",
+            "Resizable",
+            "109",
+            "105"
           ]
         }
       ]

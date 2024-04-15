@@ -572,6 +572,61 @@
         "name": "BackButtonPROTO.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "OIG4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OIG4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Logo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "play-pause-solid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "play-pause-solid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stop-solid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stop-solid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solid3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forward-solid3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Welcome to the Cassette Show.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Welcome to the Cassette Show.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1948,6 +2003,61 @@
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "OIG4.png",
+                  "points": [
+                    {
+                      "name": "TargetSpawn",
+                      "x": 1066,
+                      "y": 536.5
+                    },
+                    {
+                      "name": "Right",
+                      "x": 1582.5,
+                      "y": 536.5
+                    },
+                    {
+                      "name": "Left",
+                      "x": -599.5,
+                      "y": 561
+                    },
+                    {
+                      "name": "Up",
+                      "x": 541,
+                      "y": -546.5
+                    },
+                    {
+                      "name": "Down",
+                      "x": 557.5,
+                      "y": 1553.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 506,
+                    "y": 566.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 504,
+                    "y": 568.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Frog",
           "useMultipleDirections": false,
@@ -3799,6 +3909,18 @@
       "name": "GrayCollision",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "LogoMove",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "folded": true,
+      "name": "LogoSize",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -3829,6 +3951,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/endscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/titlescreen"
     }
   ],
   "externalEvents": [

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.28905162031349174,
+    "zoomFactor": 0.2987985363606906,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -377,6 +377,17 @@
             "IdLevel",
             "=",
             "\"Tuto4\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "Frog",
+            "Resizable",
+            "109",
+            "105"
           ]
         }
       ]

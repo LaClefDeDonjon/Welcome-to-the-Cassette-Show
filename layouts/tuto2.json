@@ -378,6 +378,17 @@
             "=",
             "\"Tuto2\""
           ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "Frog",
+            "Resizable",
+            "109",
+            "105"
+          ]
         }
       ]
     },
