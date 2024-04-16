@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3526904934771274,
+    "zoomFactor": 0.33005600491659703,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -442,6 +442,47 @@
         "characterSize": 50,
         "color": "244;186;96"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 96,
+        "g": 186,
+        "r": 244
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "244;186;96"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -455,6 +496,9 @@
       },
       {
         "objectName": "Arrow"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
