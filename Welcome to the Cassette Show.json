@@ -140,7 +140,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewTiledSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite.png\"}",
         "name": "NewTiledSprite",
         "smoothed": true,
         "userAdded": false
@@ -636,6 +636,151 @@
         "name": "TitleScreenV2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Rectangle 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rectangle 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "play-pause-solidCOLOR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "play-pause-solidCOLOR.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stop-solidCOLOR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stop-solidCOLOR.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solidCOLOR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forward-solidCOLOR.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "expand-solidCOLOR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "expand-solidCOLOR.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "expand-solidColorV2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "expand-solidColorV2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "expand-solidCOLOR2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "expand-solidCOLOR2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TitleScreenV3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TitleScreenV3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UiCt3iS8lo7OcpNmmnQGXOnnf7c.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "UiCt3iS8lo7OcpNmmnQGXOnnf7c.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "800x800-Affichage-a-l-ecran.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "800x800-Affichage-a-l-ecran.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Snow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Snow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "LevelCassette.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LevelCassette.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solidCOLOR2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "forward-solidCOLOR2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forward-solidCOLOR3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"forward-solidCOLOR3.png\",\"extension\":\".png\"}",
+        "name": "forward-solidCOLOR3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrows-rotate-solidColor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrows-rotate-solidColor.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2678,7 +2823,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "BackGround",
-      "texture": "NewTiledSprite",
+      "texture": "NewTiledSprite2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2762,9 +2907,9 @@
       "textAlignment": "center",
       "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -2784,7 +2929,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 100,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -2803,9 +2948,9 @@
       "textAlignment": "center",
       "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -2825,7 +2970,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 100,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -2966,9 +3111,9 @@
       "textAlignment": "center",
       "characterSize": 90,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -2988,7 +3133,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 90,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -3007,9 +3152,9 @@
       "textAlignment": "center",
       "characterSize": 57,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -3029,7 +3174,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 57,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -3120,9 +3265,9 @@
       "textAlignment": "center",
       "characterSize": 90,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -3142,7 +3287,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 90,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -3405,9 +3550,9 @@
       "textAlignment": "center",
       "characterSize": 57,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -3427,7 +3572,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 57,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -3478,9 +3623,71 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arrows-rotate-solidColor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1002,
+                    "y": 935.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 2002,
+                        "y": 2
+                      },
+                      {
+                        "x": 2002,
+                        "y": 1869
+                      },
+                      {
+                        "x": 2,
+                        "y": 1869
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "",
           "useMultipleDirections": false,
@@ -3495,8 +3702,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 1002,
+                    "y": 935.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3611,7 +3818,163 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TitleScreenV2.png",
+                  "image": "TitleScreenV3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Snow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Snow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "UiCt3iS8lo7OcpNmmnQGXOnnf7c.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OLD",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "800x800-Affichage-a-l-ecran.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3753,6 +4116,9 @@
       },
       {
         "objectName": "BackGround"
+      },
+      {
+        "objectName": "Snow"
       },
       {
         "objectName": "BackcgroundText"
@@ -3993,6 +4359,12 @@
       "name": "LogoSize",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Fullscreen",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

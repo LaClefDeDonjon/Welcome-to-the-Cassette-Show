@@ -11,35 +11,19 @@
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
+    "gridWidth": 36,
+    "gridHeight": 36,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4027225833325914,
+    "zoomFactor": 0.34118560234734546,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1184,
-      "layer": "",
-      "name": "BackGround",
-      "persistentUuid": "74dd0d05-48aa-4b4e-bea3-a0be3c9b626c",
-      "width": 2064,
-      "x": -50,
-      "y": -44,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -64,25 +48,9 @@
       "name": "RestartButton",
       "persistentUuid": "1a8cfa3d-c38a-4abf-9ee6-0077f10f69ce",
       "width": 178,
-      "x": 858,
-      "y": 798,
+      "x": 942,
+      "y": 846,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 248,
-      "layer": "",
-      "name": "BackButton",
-      "persistentUuid": "10c561b6-8473-4247-8014-6888731750f5",
-      "width": 248,
-      "x": 824,
-      "y": 752,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -98,6 +66,21 @@
       "x": 247,
       "y": 552,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BackGRoundNICE",
+      "persistentUuid": "cf4d5c1d-0117-49d2-94eb-68e05ad872dd",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -120,9 +103,9 @@
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -142,7 +125,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "left",
         "characterSize": 100,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     },
     {
@@ -161,9 +144,9 @@
       "textAlignment": "left",
       "characterSize": 100,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -183,7 +166,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "left",
         "characterSize": 100,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     }
   ],
@@ -200,6 +183,32 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "IdLevel",
+            "=",
+            "\"End\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -259,11 +268,18 @@
           },
           "parameters": [
             "",
-            "\"Tuto1\"",
+            "\"TitleScreen\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ButtonsFonctions"
     }
   ],
   "layers": [

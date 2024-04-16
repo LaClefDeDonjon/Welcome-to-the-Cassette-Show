@@ -4,6 +4,85 @@
   "name": "ButtonsFonctions",
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "RestartButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "RestartButton",
+            "Effect",
+            "\"Glow\"",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "RestartButton",
+            "150",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "RestartButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "RestartButton",
+            "Effect",
+            "\"Glow\"",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "RestartButton",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -46,7 +125,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "BackButton",
+                    "RestartButton",
                     "",
                     "",
                     ""
@@ -55,6 +134,44 @@
                 {
                   "type": {
                     "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.043"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -80,6 +197,17 @@
                     "AnimText",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.05"
                   ]
                 },
                 {
@@ -130,7 +258,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "BackButton",
+                    "RestartButton",
                     "",
                     "",
                     ""
@@ -139,6 +267,44 @@
                 {
                   "type": {
                     "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.043"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -164,6 +330,17 @@
                     "AnimText",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.05"
                   ]
                 },
                 {
@@ -214,7 +391,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "BackButton",
+                    "RestartButton",
                     "",
                     "",
                     ""
@@ -223,6 +400,44 @@
                 {
                   "type": {
                     "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.043"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -248,6 +463,17 @@
                     "AnimText",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.05"
                   ]
                 },
                 {
@@ -298,7 +524,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "BackButton",
+                    "RestartButton",
                     "",
                     "",
                     ""
@@ -307,6 +533,44 @@
                 {
                   "type": {
                     "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.043"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -341,6 +605,17 @@
                     "AnimText",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.05"
                   ]
                 },
                 {
@@ -391,7 +666,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "BackButton",
+                    "RestartButton",
                     "",
                     "",
                     ""
@@ -400,6 +675,44 @@
                 {
                   "type": {
                     "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.043"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -439,11 +752,126 @@
                 },
                 {
                   "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.05"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
                     "\"Niveau1\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "IdLevel",
+                "=",
+                "\"End\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.07"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "RestartButton",
+                    "Scale",
+                    "=",
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"TitleScreen\"",
                     ""
                   ]
                 }

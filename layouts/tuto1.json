@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.38958562738273395,
+    "zoomFactor": 0.3526904934771274,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,24 +36,6 @@
       "x": 299,
       "y": 637,
       "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1152,
-      "layer": "",
-      "locked": true,
-      "name": "BackGround",
-      "persistentUuid": "e5730c67-1e81-4593-9a68-d546d59a2301",
-      "sealed": true,
-      "width": 1987,
-      "x": -22,
-      "y": -31,
-      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -233,8 +215,8 @@
       "name": "Arrow",
       "persistentUuid": "c96060d7-007d-4dc0-aa0d-077ab06f0957",
       "width": 114,
-      "x": 1734,
-      "y": 130,
+      "x": 2044,
+      "y": 104,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -248,8 +230,8 @@
       "name": "Indice",
       "persistentUuid": "3c10ff9d-8e35-48c3-a700-57f0d13b88eb",
       "width": 0,
-      "x": 1690,
-      "y": 26,
+      "x": 2026,
+      "y": -118,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -273,30 +255,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1248,
-      "layer": "UI",
-      "name": "BackcgroundText",
-      "persistentUuid": "3419e055-ed1d-4a45-ae70-c0c5658874fe",
-      "width": 2132,
-      "x": -104,
-      "y": -104,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 95,
       "layer": "",
       "name": "RestartButton",
       "persistentUuid": "af327785-a146-4aff-9f90-1b8b1c3cdc98",
       "width": 100,
-      "x": 1757,
-      "y": 928,
+      "x": 1770,
+      "y": 932,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -307,12 +273,28 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "BackButton",
-      "persistentUuid": "3fdc8eed-6a37-4270-b19d-7118f5dd477f",
+      "name": "BackGRoundNICE",
+      "persistentUuid": "b5a419f4-3e6f-4ad8-b064-ce7d929386c9",
       "width": 0,
-      "x": 1742,
-      "y": 910,
-      "zOrder": 3,
+      "x": 0,
+      "y": 0,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1170,
+      "layer": "UI",
+      "name": "BackcgroundText",
+      "persistentUuid": "1de82372-0dd8-4df4-a174-915c16d6dbb5",
+      "width": 2002,
+      "x": -52,
+      "y": -52,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -436,9 +418,9 @@
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 96,
+        "g": 186,
+        "r": 244
       },
       "content": {
         "bold": true,
@@ -458,7 +440,7 @@
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "left",
         "characterSize": 50,
-        "color": "0;0;0"
+        "color": "244;186;96"
       }
     }
   ],
@@ -507,6 +489,19 @@
             "Resizable",
             "109",
             "105"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "LevelCassette.mp3",
+            "1",
+            "",
+            "20",
+            "1"
           ]
         }
       ]
