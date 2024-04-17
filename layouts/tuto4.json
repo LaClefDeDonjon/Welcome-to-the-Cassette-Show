@@ -266,7 +266,7 @@
       "name": "ConsigneIMTuto4",
       "persistentUuid": "afa5a24a-2dea-45db-9f82-1caf3718f031",
       "width": 1612,
-      "x": 128,
+      "x": 107,
       "y": 323,
       "zOrder": 6,
       "numberProperties": [],
@@ -336,6 +336,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "4effbd50-869b-4d24-b8ae-aeadf613435d",
+      "width": 328,
+      "x": 1682,
+      "y": 136,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -397,6 +413,13 @@
         "includeConfig": 0
       },
       "target": "ButtonsFonctions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PauseFonction"
     },
     {
       "type": "BuiltinCommonInstructions::Link",

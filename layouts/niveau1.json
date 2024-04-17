@@ -407,21 +407,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Debug",
-      "persistentUuid": "66636a00-c72b-47ad-aaf5-c9f145952734",
-      "width": 0,
-      "x": 1508,
-      "y": 364,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 95,
@@ -449,6 +434,22 @@
       "x": 0,
       "y": 0,
       "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "b04e1a3f-3efb-4056-aeb9-ec34f1a64a6c",
+      "width": 328,
+      "x": 1682,
+      "y": 136,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -523,6 +524,13 @@
         "includeConfig": 0
       },
       "target": "ButtonsFonctions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PauseFonction"
     },
     {
       "type": "BuiltinCommonInstructions::Link",

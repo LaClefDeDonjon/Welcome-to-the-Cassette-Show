@@ -200,6 +200,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "Pause",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "GrayCollision",
                     "False"
                   ]
@@ -512,6 +521,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "Pause",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "GrayCollision",
                     "False"
                   ]
@@ -814,6 +832,15 @@
                     "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
+                    "Pause",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
                     "GrayCollision",
                     "False"
                   ]
@@ -1109,6 +1136,15 @@
                   "parameters": [
                     "CanMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "False"
                   ]
                 },
                 {

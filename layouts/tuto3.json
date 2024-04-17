@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7077142870146657,
+    "zoomFactor": 0.37687720367508776,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -489,6 +489,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "11f3b279-d3d7-4d13-a85e-974a6b5d8a67",
+      "width": 328,
+      "x": 1672,
+      "y": 136,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -550,6 +566,13 @@
         "includeConfig": 0
       },
       "target": "ButtonsFonctions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PauseFonction"
     },
     {
       "type": "BuiltinCommonInstructions::Link",

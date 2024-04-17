@@ -32,8 +32,8 @@
       "name": "Endtext",
       "persistentUuid": "2fbd5af5-7869-488e-aa42-c4fae6971b20",
       "width": 0,
-      "x": 522,
-      "y": 193,
+      "x": 537,
+      "y": 357,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,7 +63,7 @@
       "name": "AskRestart",
       "persistentUuid": "b3d8e7f3-de9e-4c50-8fd1-3c131510bb64",
       "width": 0,
-      "x": 247,
+      "x": 376,
       "y": 552,
       "zOrder": 4,
       "numberProperties": [],
@@ -75,12 +75,30 @@
       "customSize": false,
       "height": 0,
       "layer": "",
+      "locked": true,
       "name": "BackGRoundNICE",
       "persistentUuid": "cf4d5c1d-0117-49d2-94eb-68e05ad872dd",
+      "sealed": true,
       "width": 0,
       "x": 0,
       "y": 0,
       "zOrder": -9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 144,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "8fa5d74d-1d92-4539-a3b1-09d60a8261ec",
+      "width": 406,
+      "x": 1636,
+      "y": 158,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,7 +157,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Rembobiner la cassette du jeu ?",
+      "string": "Rembobiner la cassette ?",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "left",
       "characterSize": 100,
@@ -162,7 +180,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Rembobiner la cassette du jeu ?",
+        "text": "Rembobiner la cassette ?",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "left",
         "characterSize": 100,
@@ -273,6 +291,186 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "disabled": true,
+      "name": " Battement Titre",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LogoMove",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Logo",
+                "Scale",
+                "+",
+                "0.03"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::Value"
+              },
+              "parameters": [
+                "Logo",
+                "Scale",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LogoMove",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LogoSize",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LogoMove",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Logo",
+                "Scale",
+                "=",
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LogoSize",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LogoSize",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Logo",
+                "Scale",
+                "-",
+                "0.0025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::Value"
+              },
+              "parameters": [
+                "Logo",
+                "Scale",
+                "<=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "LogoSize",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LogoSize",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Link",

@@ -16,9 +16,9 @@
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
-    "gridAlpha": 0.8,
+    "gridAlpha": 0.34,
     "snap": true,
-    "zoomFactor": 0.33005600491659703,
+    "zoomFactor": 0.4598521426736398,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -298,6 +298,306 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "layer": "",
+      "name": "Pause",
+      "persistentUuid": "e0e894ed-014b-4b73-ae0c-05f08a47e548",
+      "width": 90,
+      "x": 123,
+      "y": 938,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "Logo",
+      "persistentUuid": "4962f9f3-61a7-484e-930e-659a14a791cf",
+      "width": 328,
+      "x": 1672,
+      "y": 136,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "1217b352-5f50-4ec1-b702-3355191e815f",
+      "width": 0,
+      "x": 514,
+      "y": 546,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "locked": true,
+      "name": "TvFrame",
+      "persistentUuid": "231c6637-2e2f-4ac4-958c-486b270b293e",
+      "sealed": true,
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "1f5f9917-48d9-4086-869f-6d18dd1efbf4",
+      "width": 0,
+      "x": 26,
+      "y": 540,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "2249ec03-55a7-49f7-9ef5-5972e6a1d66b",
+      "width": 0,
+      "x": 26,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 526,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "3943c615-2700-41e1-93f5-732dca49b059",
+      "width": 526,
+      "x": 501,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 526,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "ffb66736-cc2e-48a6-a011-4336de2b171e",
+      "width": 526,
+      "x": 969,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 526,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "014685c9-2284-415d-b481-5bfa02ca40d3",
+      "width": 429,
+      "x": 1469,
+      "y": 46,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 500,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "995ccb58-f81a-4fba-bd31-31be76b1f6ff",
+      "width": 416,
+      "x": 1482,
+      "y": 546,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "SnowPause",
+      "persistentUuid": "056044f9-16f1-4a15-8d69-4e9e63c134c5",
+      "width": 0,
+      "x": 988,
+      "y": 546,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 108,
+      "layer": "Pause",
+      "name": "Pause",
+      "persistentUuid": "ec586118-46ab-4695-a522-9ecd50020a19",
+      "width": 90,
+      "x": 137,
+      "y": 934,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "Pause",
+      "name": "Logo",
+      "persistentUuid": "d43a1357-1152-4858-9f46-66d2f514d778",
+      "width": 327,
+      "x": 1672,
+      "y": 129,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "SignalPerdu",
+      "persistentUuid": "25b615dd-61c9-4e39-820f-25474a5126b5",
+      "width": 0,
+      "x": 745,
+      "y": 199,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "FullScreen",
+      "persistentUuid": "f3ac908c-a6db-4135-a193-602cec847eb7",
+      "width": 0,
+      "x": 1720,
+      "y": 940,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3952,
+      "layer": "",
+      "locked": true,
+      "name": "Ouside",
+      "persistentUuid": "8c5827d6-03e7-4e3e-8d17-07c85f8cc623",
+      "sealed": true,
+      "width": 6474,
+      "x": -1924,
+      "y": -1560,
+      "zOrder": -20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 161,
+      "layer": "Pause",
+      "name": "Backward",
+      "persistentUuid": "fb722299-d525-4c4d-ae34-ef73d3d1851e",
+      "width": 214,
+      "x": 933,
+      "y": 616,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Pause",
+      "name": "RetourEcranTitre",
+      "persistentUuid": "e693a4d4-7209-41f6-b323-d425abd6eb4b",
+      "width": 0,
+      "x": 514,
+      "y": 774,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 312,
+      "layer": "",
+      "name": "Fond",
+      "persistentUuid": "1dd196ef-f386-469d-a5cb-0d8864782f1b",
+      "width": 1586,
+      "x": 130,
+      "y": 468,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -483,6 +783,177 @@
         "characterSize": 20,
         "color": "244;186;96"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "SignalPerdu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pause",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 150,
+      "color": {
+        "b": 96,
+        "g": 186,
+        "r": 244
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pause",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 150,
+        "color": "244;186;96"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "RetourEcranTitre",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Rembobiner à l'écran titre",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 96,
+        "g": 186,
+        "r": 244
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Rembobiner à l'écran titre",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 70,
+        "color": "244;186;96"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fond",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.3,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -499,6 +970,18 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "SignalPerdu"
+      },
+      {
+        "objectName": "RetourEcranTitre"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Fond"
       }
     ]
   },
@@ -543,7 +1026,7 @@
             "",
             "LevelCassette.mp3",
             "1",
-            "",
+            "yes",
             "20",
             "1"
           ]
@@ -577,6 +1060,18 @@
         "includeConfig": 0
       },
       "target": "ButtonsFonctions"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PauseFonction"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -637,7 +1132,40 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Pause",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
