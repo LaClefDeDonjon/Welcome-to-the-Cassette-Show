@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\DossierEternel\\GdevelopProjets\\WelcomeToTheCassetteShowSOURCES\\ExportWEB",
     "maxFPS": 60,
     "minFPS": 60,
     "verticalSync": false,
@@ -1019,6 +1019,36 @@
         "metadata": "",
         "name": "11.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Welcome to the Cassette Show.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Welcome to the Cassette Show.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "LevelCassette.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "LevelCassette.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Noise.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Noise.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],
