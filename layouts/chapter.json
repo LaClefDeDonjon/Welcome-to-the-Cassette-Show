@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3192894589690185,
+    "zoomFactor": 0.27962265218393917,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -47,13 +47,11 @@
       "depth": 1,
       "height": 255,
       "layer": "",
-      "locked": true,
       "name": "TvFrame",
       "persistentUuid": "a9c17878-4b7b-4953-828b-c36245761f10",
-      "sealed": true,
       "width": 452,
-      "x": 1276,
-      "y": 576,
+      "x": 988,
+      "y": 430,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,13 +95,11 @@
       "depth": 1,
       "height": 255,
       "layer": "",
-      "locked": true,
       "name": "TvFrame",
       "persistentUuid": "6547964b-be46-4fc1-94ca-b722345969a5",
-      "sealed": true,
       "width": 452,
-      "x": 192,
-      "y": 193,
+      "x": 400,
+      "y": 425,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,141 +113,9 @@
       "name": "Chapter1",
       "persistentUuid": "475e5b94-a11c-4f59-87b8-1b6a6fea9bde",
       "width": 0,
-      "x": 301,
-      "y": 289,
+      "x": 509,
+      "y": 521,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 255,
-      "layer": "",
-      "locked": true,
-      "name": "TvFrame",
-      "persistentUuid": "eef9c4e5-3a48-412f-b26a-40340c5575b8",
-      "sealed": true,
-      "width": 452,
-      "x": 736,
-      "y": 192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 255,
-      "layer": "",
-      "locked": true,
-      "name": "TvFrame",
-      "persistentUuid": "617e0457-e73b-4a80-8cf9-39d5b2793c3b",
-      "sealed": true,
-      "width": 452,
-      "x": 1276,
-      "y": 193,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 255,
-      "layer": "",
-      "locked": true,
-      "name": "TvFrame",
-      "persistentUuid": "62d34670-628f-4428-b853-ca3bfe361087",
-      "sealed": true,
-      "width": 452,
-      "x": 188,
-      "y": 577,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 255,
-      "layer": "",
-      "locked": true,
-      "name": "TvFrame",
-      "persistentUuid": "f298794f-88b1-43fd-93f6-173cda63da0c",
-      "sealed": true,
-      "width": 452,
-      "x": 732,
-      "y": 576,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Chapter2",
-      "persistentUuid": "aed45cb5-38f0-456d-84bf-627eb942efa4",
-      "width": 0,
-      "x": 841,
-      "y": 285,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Chapter3",
-      "persistentUuid": "7075e6b0-386e-4de7-9aba-20078e6a1f31",
-      "width": 0,
-      "x": 1383,
-      "y": 285,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Chapter4",
-      "persistentUuid": "8131b0d1-93e7-4dbe-9e1e-95b92b360fe9",
-      "width": 0,
-      "x": 273,
-      "y": 673,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Chapter5",
-      "persistentUuid": "b78b2295-f0af-48b0-a720-7ab60e3c824e",
-      "width": 0,
-      "x": 833,
-      "y": 681,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -264,8 +128,8 @@
       "name": "Credits",
       "persistentUuid": "a4a77e69-8702-4a98-aa83-dd17fee73914",
       "width": 0,
-      "x": 1419,
-      "y": 679,
+      "x": 1131,
+      "y": 533,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,8 +159,8 @@
       "name": "SnowChapter1",
       "persistentUuid": "4f77cca7-e091-44da-a90a-1cc7699e9414",
       "width": 438,
-      "x": 1040,
-      "y": 457,
+      "x": 1248,
+      "y": 689,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,72 +175,8 @@
       "name": "Ouside",
       "persistentUuid": "a2fa309f-d3d7-4395-a882-0142bcc1f20b",
       "width": 436,
-      "x": 1285,
-      "y": 584,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 235,
-      "layer": "",
-      "name": "SnowChapter2",
-      "persistentUuid": "2248875e-8b39-406b-93c3-0ccaf5f65f3f",
-      "width": 438,
-      "x": 1584,
-      "y": 456,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 235,
-      "layer": "",
-      "name": "SnowChapter3",
-      "persistentUuid": "24a2257c-50ce-4e6c-b248-359b089f9e21",
-      "width": 438,
-      "x": 2124,
-      "y": 457,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 235,
-      "layer": "",
-      "name": "SnowChapter4",
-      "persistentUuid": "0b76e8a8-a1a5-4b60-b01e-36a8a5878d92",
-      "width": 438,
-      "x": 1038,
-      "y": 843,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 235,
-      "layer": "",
-      "name": "SnowChapter5",
-      "persistentUuid": "2383f134-9175-448e-8be8-0ee0c0929a1a",
-      "width": 438,
-      "x": 1582,
-      "y": 840,
+      "x": 997,
+      "y": 438,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -949,6 +749,80 @@
       "conditions": [
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "SnowChapter1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Tuto1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Ouside",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Credits\""
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "VarGlobal"
           },
           "parameters": [
@@ -958,32 +832,10 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -997,54 +849,10 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1058,76 +866,10 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter3",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter3",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1141,98 +883,10 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter3",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter4",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter4",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter3",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1246,118 +900,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter4",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter3",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "SnowChapter5",
-            "Animation",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter5",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter3",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter1",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter2",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "EffectCapability::EffectBehavior::EnableEffect"
-          },
-          "parameters": [
-            "SnowChapter4",
-            "Effect",
-            "\"Blur\"",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [
@@ -1418,7 +961,7 @@
       "isLocked": false,
       "name": "OldTV",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

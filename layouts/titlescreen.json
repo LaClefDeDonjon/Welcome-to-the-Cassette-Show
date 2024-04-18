@@ -1769,7 +1769,7 @@
       "isLocked": false,
       "name": "OldTV",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
