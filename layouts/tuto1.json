@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 26,
     "gridHeight": 26,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.34,
-    "snap": true,
-    "zoomFactor": 0.18781732880530666,
+    "snap": false,
+    "zoomFactor": 0.3300560049165975,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -582,22 +582,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 312,
-      "layer": "",
-      "name": "Fond",
-      "persistentUuid": "1dd196ef-f386-469d-a5cb-0d8864782f1b",
-      "width": 1586,
-      "x": 130,
-      "y": 468,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -951,6 +935,33 @@
             "AnimText",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "UnlockLevel",
+            "<",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "UnlockLevel",
+            "=",
+            "1"
           ]
         }
       ]

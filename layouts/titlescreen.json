@@ -5,7 +5,7 @@
   "name": "TitleScreen",
   "r": 209,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 209,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.29879853636069126,
+    "zoomFactor": 0.23689563725446627,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -784,7 +784,7 @@
           },
           "parameters": [
             "Fullscreen",
-            ""
+            "False"
           ]
         }
       ]
@@ -814,7 +814,20 @@
             "20",
             "1"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "SetGlobalVariableAsBoolean"
@@ -822,6 +835,15 @@
           "parameters": [
             "EndCollision",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
           ]
         }
       ]
@@ -1540,6 +1562,15 @@
             "=",
             "0.09"
           ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Chapter\""
+          ]
         }
       ]
     },
@@ -1738,7 +1769,7 @@
       "isLocked": false,
       "name": "OldTV",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

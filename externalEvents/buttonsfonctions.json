@@ -12,7 +12,7 @@
           },
           "parameters": [
             "",
-            "Back"
+            "Escape"
           ]
         },
         {
@@ -25,12 +25,11 @@
       "actions": [
         {
           "type": {
-            "value": "SetFullScreen"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "",
-            ""
+            "Fullscreen",
+            "False"
           ]
         }
       ]
