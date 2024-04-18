@@ -61,8 +61,19 @@
             "Noise.mp3",
             "2",
             "",
-            "20",
+            "15",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "TvFrame",
+            "Effect",
+            "\"Glow\"",
+            ""
           ]
         }
       ]

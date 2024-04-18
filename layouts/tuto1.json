@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 26,
     "gridHeight": 26,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.34,
-    "snap": false,
-    "zoomFactor": 0.3300560049165975,
+    "snap": true,
+    "zoomFactor": 0.17576384491805666,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -82,22 +82,6 @@
       "persistentUuid": "72353ef6-389e-46ed-943b-0b55c22ad27d",
       "width": 130,
       "x": 611,
-      "y": 637,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 130,
-      "layer": "",
-      "name": "Gray",
-      "persistentUuid": "46e46dd2-a782-47cc-8bc6-53fb597fd71a",
-      "width": 130,
-      "x": 767,
       "y": 637,
       "zOrder": -2,
       "numberProperties": [],
@@ -582,6 +566,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "layer": "",
+      "name": "Fond",
+      "persistentUuid": "3f9b2588-3204-4374-a5f9-936c8f2be320",
+      "width": 1534,
+      "x": 156,
+      "y": 520,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Gray",
+      "persistentUuid": "7c5c3652-8f15-46f7-ace1-8549c54f877f",
+      "width": 130,
+      "x": 767,
+      "y": 637,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1352,
+      "layer": "",
+      "name": "Effect_Old_Movie",
+      "persistentUuid": "68c93c9a-bad6-4324-8559-ef37ca7e38ea",
+      "width": 2288,
+      "x": -156,
+      "y": -130,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -778,84 +810,6 @@
       "effects": [],
       "behaviors": [],
       "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Fond",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Adjustment",
-          "name": "Effect",
-          "doubleParameters": {
-            "alpha": 0.3,
-            "blue": 0.6,
-            "brightness": 1,
-            "contrast": 1,
-            "gamma": 1,
-            "green": 1,
-            "red": 1,
-            "saturation": 2
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -875,9 +829,6 @@
       },
       {
         "objectName": "NewSprite"
-      },
-      {
-        "objectName": "Fond"
       }
     ]
   },
@@ -1099,6 +1050,39 @@
       "name": "Pause",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "OldTV",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

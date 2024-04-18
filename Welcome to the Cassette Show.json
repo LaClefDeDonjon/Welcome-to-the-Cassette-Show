@@ -975,6 +975,51 @@
         "name": "6.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2407,36 +2452,6 @@
           ]
         },
         {
-          "name": "Inv_Frog",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Inv_Frog2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 532.5,
-                    "y": 511
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Frog",
           "useMultipleDirections": false,
           "directions": [
@@ -3322,7 +3337,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Atteint l'arrivée !\nDifficultée : Très dur Ohlala",
+      "string": "Atteins l'arrivée !\nDifficultée : Très dur Ohlala",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
       "characterSize": 100,
@@ -3345,7 +3360,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Atteint l'arrivée !\nDifficultée : Très dur Ohlala",
+        "text": "Atteins l'arrivée !\nDifficultée : Très dur Ohlala",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 100,
@@ -3363,7 +3378,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Atteint l'arrivée !",
+      "string": "Atteins l'arrivée !",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
       "characterSize": 100,
@@ -3386,7 +3401,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Atteint l'arrivée !",
+        "text": "Atteins l'arrivée !",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 100,
@@ -3526,7 +3541,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Atteint l'arrivée ! (C'est possible !)",
+      "string": "Atteins l'arrivée ! (C'est possible !)",
       "font": "Rubik-VariableFont_wght.ttf",
       "textAlignment": "center",
       "characterSize": 90,
@@ -3549,7 +3564,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Atteint l'arrivée ! (C'est possible !)",
+        "text": "Atteins l'arrivée ! (C'est possible !)",
         "font": "Rubik-VariableFont_wght.ttf",
         "textAlignment": "center",
         "characterSize": 90,
@@ -3605,26 +3620,7 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "OldFilm",
-          "name": "Effect",
-          "doubleParameters": {
-            "animationFrequency": 60,
-            "noise": 0.1,
-            "noiseSize": 1,
-            "scratch": 0.5,
-            "scratchDensity": 0.3,
-            "scratchWidth": 1,
-            "sepia": 0.3,
-            "vignetting": 0.3,
-            "vignettingAlpha": 1,
-            "vignettingBlur": 0.3
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": []
     },
     {
@@ -7076,6 +7072,84 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fond",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0.1,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7270,6 +7344,9 @@
       },
       {
         "objectName": "Effect_Old_Movie"
+      },
+      {
+        "objectName": "Fond"
       }
     ]
   },
