@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3300560049165942,
+    "zoomFactor": 0.27962265218393884,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -370,14 +370,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 525,
       "layer": "Pause",
       "name": "SnowPause",
       "persistentUuid": "424205eb-b75a-40e3-b493-2a7c849fd5ae",
-      "width": 0,
+      "width": 500,
       "x": 26,
-      "y": 52,
+      "y": 26,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -387,13 +388,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 526,
+      "height": 552,
       "layer": "Pause",
       "name": "SnowPause",
       "persistentUuid": "a0e0648d-d0f8-45c7-8b95-a80d565919c0",
       "width": 526,
       "x": 494,
-      "y": 52,
+      "y": 26,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -403,13 +404,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 526,
+      "height": 552,
       "layer": "Pause",
       "name": "SnowPause",
       "persistentUuid": "eedc1052-1fe0-4b33-a6a3-8c9ad406d442",
       "width": 526,
       "x": 962,
-      "y": 52,
+      "y": 26,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,13 +420,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 526,
+      "height": 552,
       "layer": "Pause",
       "name": "SnowPause",
       "persistentUuid": "6543867c-3ea2-4e89-b44d-c559a19b5b4d",
       "width": 429,
       "x": 1456,
-      "y": 52,
+      "y": 26,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,8 +441,8 @@
       "name": "SnowPause",
       "persistentUuid": "96a652c8-3769-40b3-bb20-e9453921a633",
       "width": 416,
-      "x": 1482,
-      "y": 572,
+      "x": 1462,
+      "y": 552,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -584,6 +585,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "layer": "Pause",
+      "name": "Logo",
+      "persistentUuid": "420da43f-c31d-40d3-85f1-3eee4b36a1d6",
+      "width": 327,
+      "x": 1672,
+      "y": 129,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -621,6 +638,16 @@
             "Resizable",
             "109",
             "105"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "AnimText",
+            "=",
+            "0"
           ]
         }
       ]
@@ -757,7 +784,7 @@
       "isLocked": false,
       "name": "Pause",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

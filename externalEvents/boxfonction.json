@@ -881,6 +881,15 @@
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
+                "Pause",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
                 "OnJump_R",
                 "False"
               ]
