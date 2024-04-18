@@ -804,6 +804,33 @@
         "name": "NewSprite17",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Effect_Old_Movie.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Effect_Old_Movie.png\"}",
+        "name": "Effect_Old_Movie",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3208,7 +3235,26 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "OldFilm",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "noise": 0.1,
+            "noiseSize": 1,
+            "scratch": 0.5,
+            "scratchDensity": 0.3,
+            "scratchWidth": 1,
+            "sepia": 0.3,
+            "vignetting": 0.3,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {
@@ -5090,6 +5136,134 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "RetourEcranTitre",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Rembobiner à l'écran titre",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 96,
+        "g": 186,
+        "r": 244
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Rembobiner à l'écran titre",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 70,
+        "color": "244;186;96"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "SignalPerdu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Pause",
+      "font": "Rubik-VariableFont_wght.ttf",
+      "textAlignment": "left",
+      "characterSize": 150,
+      "color": {
+        "b": 96,
+        "g": 186,
+        "r": 244
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Pause",
+        "font": "Rubik-VariableFont_wght.ttf",
+        "textAlignment": "left",
+        "characterSize": 150,
+        "color": "244;186;96"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Effect_Old_Movie",
+      "texture": "Effect_Old_Movie",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect2",
+          "doubleParameters": {
+            "alpha": 0.2,
+            "blue": 0.2,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "OldFilm",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "noise": 0.1,
+            "noiseSize": 1,
+            "scratch": 0.5,
+            "scratchDensity": 0.3,
+            "scratchWidth": 1,
+            "sepia": 0.3,
+            "vignetting": 0.3,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -5251,10 +5425,24 @@
         "objectName": "Logo"
       },
       {
-        "objectName": "TvFrame"
+        "folderName": "Pause",
+        "children": [
+          {
+            "objectName": "SignalPerdu"
+          },
+          {
+            "objectName": "RetourEcranTitre"
+          },
+          {
+            "objectName": "SnowPause"
+          },
+          {
+            "objectName": "TvFrame"
+          }
+        ]
       },
       {
-        "objectName": "SnowPause"
+        "objectName": "Effect_Old_Movie"
       }
     ]
   },

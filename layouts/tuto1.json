@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.34,
     "snap": true,
-    "zoomFactor": 0.4598521426736398,
+    "zoomFactor": 0.41630252177333865,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -785,47 +785,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "SignalPerdu",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Pause",
-      "font": "Rubik-VariableFont_wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 150,
-      "color": {
-        "b": 96,
-        "g": 186,
-        "r": 244
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pause",
-        "font": "Rubik-VariableFont_wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 150,
-        "color": "244;186;96"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
@@ -835,47 +794,6 @@
       "effects": [],
       "behaviors": [],
       "animations": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "RetourEcranTitre",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Rembobiner à l'écran titre",
-      "font": "Rubik-VariableFont_wght.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 96,
-        "g": 186,
-        "r": 244
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Rembobiner à l'écran titre",
-        "font": "Rubik-VariableFont_wght.ttf",
-        "textAlignment": "left",
-        "characterSize": 70,
-        "color": "244;186;96"
-      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -915,7 +833,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "NewSprite19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -970,12 +888,6 @@
       },
       {
         "objectName": "NewText"
-      },
-      {
-        "objectName": "SignalPerdu"
-      },
-      {
-        "objectName": "RetourEcranTitre"
       },
       {
         "objectName": "NewSprite"
@@ -1132,7 +1044,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -277,11 +277,10 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "",
-                "\"TitleScreen\"",
+                "Pause",
                 ""
               ]
             },
@@ -290,7 +289,27 @@
                 "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "Pause",
+                "LeverONOFF",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TriggersLever",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"TitleScreen\"",
                 ""
               ]
             }

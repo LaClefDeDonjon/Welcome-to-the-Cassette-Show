@@ -102,6 +102,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1295,
+      "layer": "",
+      "name": "Effect_Old_Movie",
+      "persistentUuid": "feec5951-9232-421d-998a-1e020df4d630",
+      "width": 2131,
+      "x": -107,
+      "y": -87,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
